@@ -28,7 +28,6 @@ def findHeight(root)
     return max(leftH, rightH)+1
 end
 
-
 def isBalanced(root, lh = nil, rh =nil)
     if root.nil?
       return 1
