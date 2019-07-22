@@ -4,11 +4,11 @@
       hole = i
       while (hole > 0 && array[hole - 1] > value)
          array[hole] = array[hole - 1]
-         p array.join('')
+         p array.join(' ')
          hole = hole - 1
       end
         array[hole] = value
   end
-  array.join('')
+  array.join(' ')
 end
 p insertion_sort([4, 1, 6, 3, 9])
